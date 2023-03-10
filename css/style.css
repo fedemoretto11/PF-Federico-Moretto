@@ -233,3 +233,123 @@ footer {
 .footer_right p{
     text-align: center;
 }
+
+
+
+
+
+/* NOSOTROS */
+
+.nosotros_top {
+    background-image: url("../img/filosofia.jpg");
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 330px;
+}
+
+.nosotros_top-texto {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+    color: var(--claro);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nosotros_top-texto h3 {
+    font-size: 1.6rem;
+    padding: 0 0 1rem 1.5rem;
+}
+
+.nosotros_top-texto hr {
+    width: 4rem;
+    height: .16rem;
+    color: var(--claro);
+    background: var(--claro);
+    font-size: 3rem;
+    margin: 0 0 2rem 1.5rem;
+}
+
+.nosotros_top-texto h1 {
+    font-size: 2.6rem;
+    padding: 0 0 3rem 1.5rem;
+}
+
+
+.nosotros_main {
+    /* height: 1590px; */
+}
+
+.nosotros_main_top {
+    margin: 1rem 9rem 0 9rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+
+}
+
+.nosotros_main_top-cards h3 {
+    font-size: 2.4rem;
+    font-weight: 75;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+
+.nosotros_main_top-cards p {
+    font-size: 1rem;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mision h3 {
+    color: #188fbe;
+}
+
+.vision h3 {
+    color: #f0cf3d;
+}
+
+.proposito h3 {
+    color: #3d8314;
+}
+
+.nosotros_main_bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nosotros_main_bottom-titulo {
+    width: 100%;
+    margin: 6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nosotros_main_bottom-titulo hr {
+    width: 16rem;
+    height: .2rem;
+    background-color: var(--secundario);
+    color: var(--secundario);
+    border: none;
+}
+
+.nosotros_main_bottom-titulo h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--primario);
+    font-size: 2.3rem;
+    
+}
+
+.nosotros_main_bottom-texto {
+    width: 50%;
+    margin-bottom: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.4rem;
+    text-align: justify;
+
+}
+
