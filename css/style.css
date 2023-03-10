@@ -1,0 +1,235 @@
+:root {
+    --primario: #243773;
+    --secundario: #f2c778;
+    --terciario: #0378A6;
+    --claro: #F2F2F2;
+    --negro: #0D0D0D;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+/* .header {
+
+} */
+
+/* HEADER TOP */
+
+.header_top {
+    height: 30px;
+    background-color: var(--claro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+    z-index: 100;
+}
+
+.header_top-card img {
+    height: 1rem;
+}
+
+.header_top-card i {
+    height: 1rem;
+    color: var(--primario);
+}
+
+.header_top-card a {
+    text-decoration: none;
+    color: var(--primario);
+    font-size: .9rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* HEADER BOTTOM - NAV */
+
+.header_bottom {
+    height: 85px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 2px 5px var(--negro);
+    background-color: #FFF;
+    z-index: 10;
+}
+
+.header_bottom-logo {
+    height: 70px;
+}
+
+.header_bottom-logo img {
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.header_bottom ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.header_bottom ul li {
+    list-style: none;
+    
+}
+
+.header_bottom ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--primario);
+    transition: .2s;
+}
+
+.header_bottom ul li:hover a {
+    color: var(--secundario);
+}
+
+
+/* HERO */
+
+.hero_top {
+    background-color: var(--primario);
+    height: 330px;
+}
+
+.hero_bottom {
+    background-color: var(--claro);
+    height: 260px;
+    padding: 1rem;
+}
+
+.hero_bottom-titulo {
+    font-size: 3rem;
+    color: var(--primario);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    user-select: none;
+}
+
+.hero_botom-logos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem;
+    
+}
+
+.hero_botom-logos img {
+    height: 105px;
+}
+
+/* DIVISOR */
+
+.divisor {
+    width: 100%;
+    height: 10px;
+    background-image: linear-gradient(to right, #c89118 0%, #21326c 100%);
+}
+/* NOSOTROS */
+
+.nosotros {
+    height: 690px;
+    background-image: url("../img/racks.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nosotros_left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 16px;
+    padding-right: 2rem;
+    user-select: none;
+}
+
+.nosotros_left-imagen img {
+    height: 115px;
+    filter: invert(1);
+}
+
+.nosotros_left-texto {
+    color: var(--claro);
+    text-align: end;
+}
+.nosotros_right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    padding-left: 2rem;
+}
+
+.nosotros_right-texto {
+    color: var(--claro);
+    text-align: start;
+    user-select: none;
+}
+
+.nosotros_right-texto h3 {
+    font-size: 3rem;
+}
+
+.nosotros_right-texto hr {
+    border: solid var(--claro);
+    border-width:3px;
+    width: 16rem;
+}
+
+.nosotros_right-texto p {
+    width: 85%;
+    padding-top: 3rem;
+    letter-spacing: 1px;
+}
+
+.button button {
+    color: var(--claro);
+    border: solid 2.5px var(--claro);
+    border-radius: 5px;
+    font-size: 1rem;
+    margin: 2rem 0 0 0px;
+    padding: 12px 30px;
+    cursor: pointer;
+    background: none;
+    transition: .3s;
+    
+}
+
+.button button:hover {
+    background-color: var(--primario);
+    color: var(--claro);
+    border: solid 2.5px var(--claro);
+}
+
+/* FOOTER */
+
+footer {
+    height: 80px;
+    background-color: var(--primario);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--claro);
+}
+
+.footer_right p{
+    text-align: center;
+}
