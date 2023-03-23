@@ -16,6 +16,10 @@
         <link rel="icon" href="../ico/logo-arcor.ico">
         <!-- CSS -->
         <link rel="stylesheet" href="../css/style.css">
+        <!-- Bootstrap -->
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
         <!-- Bootstrap Icons -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
         <!-- Google Fonts -->
@@ -26,42 +30,45 @@
         <script src="../js/script.js" defer></script>
 </head>
 <body>
-    <header class="header">
-        <div class="header_top">
-            <!-- UTILIZAR DIVS Y FLEX BOX EN LUGAR DE div -->
-            <!-- ESPERANDO RTA CODERASK PARA VER SI SE PUEDE O NO UTILIZAR FLEXBOX -->
-            <div class="header_top-card">
-            <img src="../img/tokin.png" alt="Arcor Tokin">
-            <a href="https://play.google.com/store/apps/details?id=com.emser.arcorpdv&hl=en" target="_blank">Descargá la App</a>
-            </div>
-            <div class="header_top-card">
-            <i class="bi bi-telephone-fill"></i>
-            <a href="">(02268) 421642</a>
-            </div>
-            <div class="header_top-card">
-            <i class="bi bi-envelope-at-fill"></i>
-            <a href="mailto:admrmorettosrl@gmail.com">admrmorettosrl@gmail.com</a>
-            </div>
-            <div class="header_top-card">
-            <i class="bi bi-geo-alt-fill"></i>
-            <a href="https://www.google.com/maps/search/moretto+srl/@-36.8613042,-57.8780145,18z" target="_blank">Laprida 225, Maipu, Buenos Aires, Argentina</a>
-            </div>
-        </div>
-    </header>
-
-    <!-- EL NAV LO TUVE QUE SACAR DEL HEADER PORQUE NO ME FUNCIONABA EL POSITION STICKY COMO YO QUERIA -->
-    <nav id="navegador" class="header_bottom">
-        <div class="header_bottom-logo">
-            <img src="../img/logo-arcor.png" alt="Logo de Arcor">
-        </div>
-        <ul>
-            <li><a href="../index.html">INICIO</a></li>
-            <li><a href="productos.html">PRODUCTOS</a></li>
-            <li><a href="servicios.html">SERVICIOS</a></li>
-            <li><a href="nosotros.html">NOSOTROS</a></li>
-            <li><a href="contacto.html">CONTACTO</a></li>
+  <header class="header d-none d-lg-block">
+    <div class="header_top">
+      <div class="header_top-card">
+        <img src="../img/tokin.png" alt="Arcor Tokin">
+        <a href="https://play.google.com/store/apps/details?id=com.emser.arcorpdv&hl=en" target="_blank">Descargá la App</a>
+      </div>
+      <div class="header_top-card">
+        <i class="bi bi-telephone-fill"></i>
+        <a href="">(02268) 421642</a>
+      </div>
+      <div class="header_top-card">
+        <i class="bi bi-envelope-at-fill"></i>
+        <a href="mailto:admrmorettosrl@gmail.com">admrmorettosrl@gmail.com</a>
+      </div>
+      <div class="header_top-card">
+        <i class="bi bi-geo-alt-fill"></i>
+        <a href="https://www.google.com/maps/search/moretto+srl/@-36.8613042,-57.8780145,18z" target="_blank">Laprida 225, Maipu, Buenos Aires, Argentina</a>
+      </div>
+    </div>
+  </header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="../img/logo-arcor.png" alt="Logo de Arcor" height="75">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto text-center">
+          <li class="nav-item"><a class="link" href="../index.html">INICIO</a></li>
+          <li class="nav-item"><a class="link" href="productos.html">PRODUCTOS</a></li>
+          <li class="nav-item"><a class="link" href="servicios.html">SERVICIOS</a></li>
+          <li class="nav-item"><a class="link" href="nosotros.html">NOSOTROS</a></li>
+          <li class="nav-item"><a class="link" href="contacto.html">CONTACTO</a></li>
         </ul>
-    </nav>
+      </div>
+    </div>
+  </nav>
     
     
     <section class="nosotros_top">
@@ -78,15 +85,15 @@
         <div class="nosotros_main_top">
             <div class="nosotros_main_top-cards mision">
                 <h3>Mision</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis illo, maiores quibusdam dolor omnis est! Dicta quod, iste veniam nesciunt id possimus. Commodi ipsum repellendus, aliquam molestiae iusto doloremque. Cum?</p>
+                <p>Visitar todas la bocas de expendio minoristas, logrando una efectividad de atencion del 95%, con la maxima cobertura de productos posible y con la mejor exhibicion competitiva</p>
             </div>
             <div class="nosotros_main_top-cards vision">
                 <h3>Vision</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis illo, maiores quibusdam dolor omnis est! Dicta quod, iste veniam nesciunt id possimus. Commodi ipsum repellendus, aliquam molestiae iusto doloremque. Cum?</p>
+                <p>Ser el proveedor preferido en servicio de comercializacion y distribucion de productos de consumo masivo de la zona, a traves de un esquema lider en soluciones al Canal Minorista</p>
             </div>
             <div class="nosotros_main_top-cards proposito">
                 <h3>Proposito</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis illo, maiores quibusdam dolor omnis est! Dicta quod, iste veniam nesciunt id possimus. Commodi ipsum repellendus, aliquam molestiae iusto doloremque. Cum?</p>
+                <p>Nuestro propósito es distribuir productos de alta calidad de la marca líder en alimentos y golosinas en Argentina y otros países, garantizando una red de distribución efectiva y eficiente, y brindando soluciones personalizadas y atención de calidad a nuestros clientes, para generar satisfacción y rentabilidad en la empresa.</p>
             </div>
         </div>
 

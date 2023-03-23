@@ -15,6 +15,11 @@
     <link rel="icon" href="ico/logo-arcor.ico">
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <!-- Google Fonts -->
@@ -27,9 +32,10 @@
 
 
   <body>
-    <header class="header">
+
+    <!-- HEADER-->
+    <header class="header d-none d-lg-block">
       <div class="header_top">
-        <!-- UTILIZAR DIVS Y FLEX BOX EN LUGAR DE div -->
         <div class="header_top-card">
           <img src="img/tokin.png" alt="Arcor Tokin">
           <a href="https://play.google.com/store/apps/details?id=com.emser.arcorpdv&hl=en" target="_blank">Descargá la App</a>
@@ -48,20 +54,30 @@
         </div>
       </div>
     </header>
-  
-    <!-- EL NAV LO TUVE QUE SACAR DEL HEADER PORQUE NO ME FUNCIONABA EL POSITION STICKY COMO YO QUERIA -->
-    <nav id="navegador" class="header_bottom">
-          <div class="header_bottom-logo">
-            <img src="img/logo-arcor.png" alt="Logo de Arcor">
-          </div>
-          <ul>
-            <li><a href="index.html">INICIO</a></li>
-            <li><a href="pages/productos.html">PRODUCTOS</a></li>
-            <li><a href="pages/servicios.html">SERVICIOS</a></li>
-            <li><a href="pages/nosotros.html">NOSOTROS</a></li>
-            <li><a href="pages/contacto.html">CONTACTO</a></li>
+
+    <!-- NAV -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo-arcor.png" alt="Logo de Arcor" height="75">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto text-center">
+            <li class="nav-item"><a class="link" href="index.html">INICIO</a></li>
+            <li class="nav-item"><a class="link" href="pages/productos.html">PRODUCTOS</a></li>
+            <li class="nav-item"><a class="link" href="pages/servicios.html">SERVICIOS</a></li>
+            <li class="nav-item"><a class="link" href="pages/nosotros.html">NOSOTROS</a></li>
+            <li class="nav-item"><a class="link" href="pages/contacto.html">CONTACTO</a></li>
           </ul>
+        </div>
+      </div>
     </nav>
+    
+
+
 
     <main id="hero">
       <div class="hero_top">
@@ -69,14 +85,17 @@
       <!-- LA IDEA ES USAR Bootstrap ASI QUE POR ESO NO LO PUSE TODAVIA PARA NO ADELANTAR -->
       </div>
 
-      <div class="hero_bottom">
+      
+      <!-- <div class="hero_bottom">
         <h1 class="hero_bottom-titulo">DISTRIBUIDOR OFICIAL</h1>
         <div class="hero_botom-logos">
           <img src="img/logo-bagley.png" alt="Logo Bagley">
           <img src="img/logo-arcor.png" alt="Logo Arcor">
           <img src="img/la-campagnola_logo.png" alt="Logo La Campagnola">
         </div>
-      </div>
+      </div> -->
+
+      
 
       <!-- LA IDEA ACA ES PONER OTRO CARRUSEL CON DISTINTAS MARCAS SECUNDARIAS DE LA EMPRESA -->
 
@@ -85,26 +104,34 @@
 
     <div class="divisor"></div>
 
-    <section class="nosotros">
-      <div class="nosotros_left">
-        <div class="nosotros_left-imagen">
-          <img src="img/logo-arcor-byn.png" alt="Logo Arcor">
+    <section class="nosotros container-fluid d-flex">
+      <div class="row">
+
+
+
+        <div class="nosotros_left col-md-6 d-flex flex-column justify-content-center">
+          <div class="nosotros_left-imagen text-end">
+            <img src="img/logo-arcor-byn.png" alt="Logo Arcor">
+          </div>
+          <div class="nosotros_left-texto text-end">
+            <p>"Aca va una breve frase motivacional del Rudold, <br> o algo que el quiera decir"</p>
+            <br>
+            <p>Rodolfo Isidro Moretto, Fundador</p>
+          </div>
         </div>
-        <div class="nosotros_left-texto">
-          <p>"Aca va una breve frase motivacional del Rudold, <br> o algo que el quiera decir"</p>
-          <br>
-          <p>Rodolfo Isidro Moretto, Fundador</p>
-        </div>
-      </div>  
-      <div class="nosotros_right">
-        <div class="nosotros_right-texto">
-          <h3>Nosotros</h3>
-          <hr>
-          <p>Aca va una breve descripcion de la historia, algo breve conciso, la idea es que haya texto que ocupe espacio... <br><br>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet itaque quibusdam vel veritatis neque aliquid commodi error ipsam non illo debitis officia veniam eum laboriosam, architecto qui voluptatem enim earum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sapiente atque nemo, minima ut necessitatibus pariatur quaerat tempora beatae sint totam rerum laudantium tenetur minus animi a rem repellat ullam?</p>
-        </div>
-        <div class="button">
-          <a href="pages/nosotros.html"><button>NOSOTROS</button></a>
+        
+        
+
+        <div class="nosotros_right col-md-6 d-flex flex-column justify-content-center">
+          <div class="nosotros_right-texto text-start">
+            <h3>Nosotros</h3>
+            <hr>
+            <p>Aca va una breve descripcion de la historia, algo breve conciso, la idea es que haya texto que ocupe espacio... <br><br>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet itaque quibusdam vel veritatis neque aliquid commodi error ipsam non illo debitis officia veniam eum laboriosam, architecto qui voluptatem enim earum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sapiente atque nemo, minima ut necessitatibus pariatur quaerat tempora beatae sint totam rerum laudantium tenetur minus animi a rem repellat ullam?</p>
+          </div>
+          <div class="button text-center">
+            <a href="pages/nosotros.html"><button>NOSOTROS</button></a>
+          </div>
         </div>
       </div>
 
@@ -113,7 +140,7 @@
 
 
 
-    <footer>
+    <!-- <footer>
       <div class="footer_left">
         <p> &#169 2023 - Rodolfo Isidro Moretto SRL - Distribuidor Oficial Arcor &#174</p>
       </div>
@@ -121,7 +148,19 @@
         <p>Laprida 225 - Maipu - Buenos Aires - Argentina</p>
         <p>Telefono: (02268) 421642</p>
       </div>
-    </footer>
+    </footer> -->
+
+    <footer class="footer">
+      <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-md-6">
+            <p class="footer-copyright text-center">&#169 2023 - Rodolfo Isidro Moretto SRL - Distribuidor Oficial Arcor &#174</p>
+          </div>
+          <div class="col-md-6 footer_right">
+              <p class="footer-copyright text-center">Laprida 225 - Maipu - Buenos Aires - Argentina</p>
+              <p class="footer-copyright text-center">Telefono: (02268) 421642</p>
+          </div>
+      </div>
+  </footer>
 
 
 
