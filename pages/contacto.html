@@ -70,54 +70,77 @@
     </div>
   </nav>
     
-    <section class="contacto_top">
-        <div class="contacto_top-cards location">
-            <i class="bi bi-geo-alt-fill"></i>
-            <a href="https://www.google.com/maps/search/moretto+srl/@-36.8613042,-57.8780145,18z" target="_blank">Laprida 225, Maipu, Buenos Aires, Argentina</a>
-        </div>
-        <div class="contacto_top-cards phone">
-            <i class="bi bi-telephone-fill"></i>
-            <a href="">(02268) 421642</a>
-        </div>
-        <div class="contacto_top-cards mail">
-            <i class="bi bi-envelope-at-fill"></i>
-            <a href="mailto:admrmorettosrl@gmail.com">admrmorettosrl@gmail.com</a>
+    <section class="contacto_top container-fluid">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="contacto_top-cards location text-center" >
+              <i class="bi bi-geo-alt-fill"></i>
+              <a href="https://www.google.com/maps/search/moretto+srl/@-36.8613042,-57.8780145,18z" target="_blank">Laprida 225, Maipu, Buenos Aires, Argentina</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="contacto_top-cards phone text-center">
+              <i class="bi bi-telephone-fill"></i>
+              <a href="">(02268) 421642</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="contacto_top-cards mail text-center">
+              <i class="bi bi-envelope-at-fill"></i>
+              <a href="mailto:admrmorettosrl@gmail.com">admrmorettosrl@gmail.com</a>
+            </div>
+          </div>
         </div>
     </section>
 
-    <main class="contacto_main">
-        <div class="contacto_main-map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1596.1068327686557!2d-57.8780145!3d-36.8613042!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959a3be8fb33056f%3A0x4598ffc83172836e!2sMoretto%20SRL!5e0!3m2!1sen!2sar!4v1678459145801!5m2!1sen!2sar" width="550" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+    <main class="contacto_main container-fluid">
+        <div class="row">
+
+          
+          <div class="col-md-6 d-flex justify-content-center align-items-center container-map">
+            <div class="contacto_main-map embed-responsive embed-responsive-16by9">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1596.1068327686557!2d-57.8780145!3d-36.8613042!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959a3be8fb33056f%3A0x4598ffc83172836e!2sMoretto%20SRL!5e0!3m2!1sen!2sar!4v1678459145801!5m2!1sen!2sar" width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="embed-responsive-item"></iframe>
+            </div>
+          </div>
+          
+
+          <div class="col-md-6 d-flex justify-content-center align-items-center">
+            <div class="contacto_main-form ">
+              <h2 class="text-center">Ingresa tu consulta</h2>
+              <hr class="text-center">
+              <form form action="../php/formulario.php" method="post" enctype="multipart/form-data">
+                  
+                  <label for="nombre"></label>
+                  <input type="text" placeholder="Nombre" name="nombre" required>
+  
+                  <label for="mail"></label>
+                  <input type="email" placeholder="Email" name="mail" required>
+  
+                  <label for="telefono"></label>
+                  <input type="tel" placeholder="Telefono" name="telefono" required>
+  
+                  <label for="consulta"></label>
+                  <textarea name="consulta" cols="50%" rows="14" placeholder="Tu consulta"></textarea>
+  
+                  <label for="cv" class="fileLabel"></label>    
+                  <input type="file" placeholder="Ingrese un archivo" name="cv" accept=".pdf,.doc,.docx" class="fileInput">
+                  <!-- LA IDEA ES DARLE FORMATO AL FILE PERO NO QUISE USAR JAVASCRIPT TODAVIA -->
+  
+                  
+                  <button type="submit" class="form_button">Enviar</button>
+                  
+  
+              </form>
+            </div>
+          </div>
+
+
+
+
         </div>
-
-        <div class="contacto_main-form">
-            <h2>Ingresa tu consulta</h2>
-            <hr>
-            <form form action="../php/formulario.php" method="post" enctype="multipart/form-data">
-                
-                <label for="nombre"></label>
-                <input type="text" placeholder="Nombre" name="nombre" required>
-
-                <label for="mail"></label>
-                <input type="email" placeholder="Email" name="mail" required>
-
-                <label for="telefono"></label>
-                <input type="tel" placeholder="Telefono" name="telefono" required>
-
-                <label for="consulta"></label>
-                <textarea name="consulta" cols="50%" rows="14" placeholder="Tu consulta"></textarea>
-
-                <label for="cv" class="fileLabel"></label>    
-                <input type="file" placeholder="Ingrese un archivo" name="cv" accept=".pdf,.doc,.docx" class="fileInput">
-                <!-- LA IDEA ES DARLE FORMATO AL FILE PERO NO QUISE USAR JAVASCRIPT TODAVIA -->
-
-                
-                <button type="submit" class="form_button">Enviar</button>
-                
-
-            </form>
-        </div>
-
     </main>
 
 

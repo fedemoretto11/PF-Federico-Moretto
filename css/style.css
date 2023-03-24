@@ -74,22 +74,44 @@
 
     .hero_top {
         background-color: var(--primario);
-        min-height: 330px;
+        max-height: 330px;
     }
+
+    .carousel-item {
+        min-height: 300px;
+        max-height: 330px;
+    }
+
+    .carrousel-titulo_slider {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.3rem;
+        word-wrap: break-word;
+    }
+
+
+
+
+
+
+
+
+
+
+
 
     .hero_bottom {
-        background-color: var(--claro);
-        height: 260px;
-        padding: 1rem;
-    }
-
+    background-color: var(--claro);
+    min-height: 260px;
+    padding: 1rem;
+    }   
     .hero_bottom-titulo {
-        font-size: 3rem;
+        font-size: 2.6rem;
         color: var(--primario);
         font-family: 'Montserrat', sans-serif;
         text-align: center;
         user-select: none;
     }
+
 
     .hero_botom-logos {
         display: flex;
@@ -193,6 +215,12 @@
         color: var(--claro);
     }
 
+    footer p {
+        margin: 0;
+    }
+    
+    
+
 
     /* NOSOTROS */
 
@@ -204,11 +232,7 @@
         height: 330px;
     }
 
-    .contacto_main-map {
-        border: .15rem solid var(--secundario);
-        box-shadow: 0 0 5px var(--primario);
-    }
-
+    
     .nosotros_top-texto {
         height: 100%;
         display: flex;
@@ -218,7 +242,7 @@
         color: var(--claro);
         font-family: 'Montserrat', sans-serif;
     }
-
+    
     .nosotros_top-texto h3 {
         font-size: 1.6rem;
         padding: 0 0 1rem 1.5rem;
@@ -232,25 +256,25 @@
         font-size: 3rem;
         margin: 0 0 2rem 1.5rem;
     }
-
+    
     .nosotros_top-texto h1 {
         font-size: 2.6rem;
         padding: 0 0 3rem 1.5rem;
     }
-
-
+    
+    
     .nosotros_main {
         /* height: 1590px; */
     }
-
+    
     .nosotros_main_top {
         margin: 1rem 9rem 0 9rem;
         display: flex;
         justify-content: center;
         gap: 2rem;
-
+        
     }
-
+    
     .nosotros_main_top-cards {
         max-width: 33%;
     }
@@ -260,27 +284,27 @@
         font-weight: 70;
         font-family: 'Gloria Hallelujah', cursive;
     }
-
-
+    
+    
     .nosotros_main_top-cards p {
         line-height: 23px;
         font-size: 1rem;
         text-align: justify;
         font-family: 'Montserrat', sans-serif;
     }
-
+    
     .mision h3 {
         color: #188fbe;
     }
-
+    
     .vision h3 {
         color: #f0cf3d;
     }
-
+    
     .proposito h3 {
         color: #3d8314;
     }
-
+    
     .nosotros_main_bottom {
         display: flex;
         flex-direction: column;
@@ -293,7 +317,7 @@
         justify-content: space-around;
         align-items: center;
     }
-
+    
     .nosotros_main_bottom-titulo hr {
         width: 16rem;
         height: .2rem;
@@ -301,14 +325,14 @@
         color: var(--secundario);
         border: none;
     }
-
+    
     .nosotros_main_bottom-titulo h2 {
         font-family: 'Montserrat', sans-serif;
         color: var(--primario);
         font-size: 2.3rem;
         
     }
-
+    
     .nosotros_main_bottom-texto {
         width: 50%;
         margin-bottom: 4rem;
@@ -316,13 +340,13 @@
         letter-spacing: 1px;
         line-height: 1.4rem;
         text-align: justify;
-
+        
     }
-
-
+    
+    
     /* CONTACTO */
-
-
+    
+    
     .contacto_top {
         height: 10rem;
         background-color: var(--primario);
@@ -331,29 +355,36 @@
         align-items: center;
         gap: 1rem;
     }
-
+    
     .contacto_top-cards a {
         text-decoration: none;
         color: var(--secundario);
         font-size: 1.1rem;
         font-family: 'Montserrat', sans-serif;
     }
-
+    
     .contacto_top-cards i {
         color: var(--secundario);
     }
-
-
+    
+    
     .contacto_main {
         width: 100%;
         background-color: var(--claro);
-        display:flex;
-        justify-content: center;
-        align-items: center;
         gap: 3rem;
     }
+    
+    .contacto_main-map {
+        border: .15rem solid var(--secundario);
+        box-shadow: 0 0 5px var(--primario);
+        margin-top: 20px;
+    }
 
-
+    .contacto_main-map div iframe {
+        
+        width: 100%;
+    }
+    
     .contacto_main-form {
         width: 50%;
         margin: 5rem 0;
@@ -361,7 +392,7 @@
         flex-direction: column;
         align-items: center;
     }
-
+    
     .contacto_main-form h2 {
         font-family: 'Montserrat', sans-serif;
         color: var(--primario);
