@@ -380,9 +380,8 @@
         margin-top: 20px;
     }
 
-    .contacto_main-map div iframe {
-        
-        width: 100%;
+    .contacto_main-map iframe {
+        width: 550px;
     }
     
     .contacto_main-form {
@@ -532,4 +531,12 @@
         font-size: 1rem;
     }
 
+
+
+    /* MEDIA QUERY SOLO PARA OPTIMIZAR EL MAPA */
+        @media screen and (max-width: 1100px) {
+            .contacto_main-map iframe {
+                width: 100%;
+            }
+        }
 
