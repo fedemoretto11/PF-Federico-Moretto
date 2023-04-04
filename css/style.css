@@ -472,6 +472,7 @@
     }
 
     .servicios_titulo h1 {
+        text-align: center;
         font-family: 'Montserrat', sans-serif;
         color: var(--primario);
         font-size: 2.3rem;
@@ -480,15 +481,11 @@
 
 
     .servicios_cards {
-        width: 100%;
-        min-height: 250px;
         display: flex;
-        margin: 1rem;
+        margin: 2.5rem;
     }
 
     .servicios_cards-imagen {
-        width: 40%;
-        margin: 0rem 2rem;
         display: flex;
         justify-content: center;
         align-items: start;
@@ -507,7 +504,7 @@
     }
 
     .servicios_cards-texto {
-        width: 60%;
+        /* width: 60%; */
         padding: 0 3rem;
         font-family: 'Montserrat', sans-serif;
         color: var(--primario);
@@ -521,6 +518,7 @@
 
     .servicios_cards-texto p {
         font-size: 1rem;
+        text-align: justify;
     }
 
 
@@ -531,8 +529,22 @@
                 width: 100%;
             }
 
-            .nosotros_main_bottom-titulo hr {
+            .nosotros_main_bottom-titulo hr,
+            .servicios_titulo hr {
                 display: none;
+            }
+
+            .servicios_cards-imagen {
+                margin-bottom: 2rem;
+            }
+
+            
+        }
+
+        @media screen and (max-width: 767px) {
+            .servicios_cards-texto h3,
+            .servicios_cards-texto p {
+                text-align: center;
             }
         }
 
