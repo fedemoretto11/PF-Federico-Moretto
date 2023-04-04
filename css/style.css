@@ -543,7 +543,7 @@
 
         @media screen and (max-width: 767px) {
             .servicios_cards-texto h3,
-            .servicios_cards-texto p,
+            .servicios_cards-texto p
             {
                 text-align: center;
             }
