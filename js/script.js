@@ -4,9 +4,23 @@ const textoCarrousel = document.getElementById("textoCarrousel");
 
 let contador = 0;
 
-const imagenes = ["../img/productosAlimentos.jpg", "../img/productos.jpg", "../img/tokin2.jpg"];
-const titulos = ["Prueba1", "Algun Titulo", "Prueba+"];
-const textos = ["Esto es una prueba a ver si funciona 1", "Alguna breve descripcion que cuente lo que dice el titulo, pero cortita", "Otra descripcion para colocar"];
+const imagenes = [
+  "img/productosAlimentos.jpg", 
+  "img/productos.jpg", 
+  "img/tokin2.jpg"
+];
+
+const titulos = [
+  "Prueba1", 
+  "Algun Titulo", 
+  "Prueba+"
+];
+
+const textos = [
+  "Esto es una prueba a ver si funciona 1", 
+  "Alguna breve descripcion que cuente lo que dice el titulo, pero cortita", 
+  "Otra descripcion para colocar"
+];
 
 
 function cambiarContendio() {
