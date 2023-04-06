@@ -72,21 +72,41 @@
 
     /* HERO */
 
-    .hero_top {
+    #hero {
         background-color: var(--primario);
-        max-height: 330px;
     }
 
-    .carousel-item {
-        min-height: 300px;
-        max-height: 330px;
+    .hero_top {
+
     }
 
-    .carrousel-titulo_slider {
+    .carrousel {
+        padding: 0rem 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .carrousel_imagen {
+        width: 700px;
+        height: 500px;
+    }
+
+    .carrousel_imagen img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    
+    }
+
+    .carrousel_texto {
+        padding: 1rem;
+        max-width: 250px;
         font-family: 'Montserrat', sans-serif;
-        font-size: 1.3rem;
-        word-wrap: break-word;
+        color: var(--claro);
     }
+
+
 
 
 
@@ -569,7 +589,6 @@
 
     .cards_productos:hover h4{
         color: var(--secundario);
-        /* text-shadow: 0px 0px 2.5px var(--negro); */
     }
 
     .cards_productos:hover 
@@ -624,6 +643,13 @@
                 padding-bottom: 3rem;
             }
 
+            .carrousel_texto {
+                max-width: 350px;
+            }
+
+            .carrousel_texto {
+                text-align: center;
+            }
             
         }
 
