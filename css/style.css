@@ -101,7 +101,7 @@
 
     .carrousel_texto {
         padding: 1rem;
-        max-width: 250px;
+        max-width: 350px;
         font-family: 'Montserrat', sans-serif;
         color: var(--claro);
     }
@@ -142,8 +142,39 @@
     }
 
     .hero_botom-logos img {
-        height: 105px;
+        height: 135px;
     }
+
+
+    /* HERO BOTTOM // MARCAS SECUNDARIAS */
+
+    .marcas_secundarias h2 {
+        color: var(--primario);
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+
+    .marcas_secundarias-contenedor {
+        display: flex;
+        justify-content: center;
+    }
+
+    .marcas_secundarias-imagenContenedor {
+        height: 210px;
+        width: 210px;
+        margin: 1rem 0;
+        padding: 1.5rem;
+    }
+    
+    .marcas_secundarias-imagenContenedor img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+        outline: .3rem solid var(--secundario);
+    }
+
+
 
     /* DIVISOR */
 
@@ -527,7 +558,7 @@
         height: 100%;
         object-fit: cover;
         border-radius: 50%;
-        outline: .6rem solid var(--claro);
+        outline: .6rem solid var(--secundario);
     }
 
     .servicios_cards-texto {
@@ -631,6 +662,14 @@
                 display: none;
             }
 
+            .nosotros_left {
+                width: 100%;
+            }
+            .nosotros_right {
+                width: 100%;
+            }
+
+
             .servicios_cards-imagen {
                 margin-bottom: 2rem;
             }
@@ -644,7 +683,7 @@
             }
 
             .carrousel_texto {
-                max-width: 350px;
+                max-width: 600px;
             }
 
             .carrousel_texto {
@@ -658,6 +697,10 @@
             .servicios_cards-texto p
             {
                 text-align: center;
+            }
+
+            .carrousel_imagen {
+                height: 275px;
             }
 
             
