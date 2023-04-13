@@ -1,0 +1,160 @@
+// Hero
+
+#hero {
+  background-color: var(--primario);
+}
+
+.carrousel {
+  padding: 0rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carrousel_imagen {
+  width: 700px;
+  height: 500px;
+}
+
+.carrousel_imagen img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.carrousel_texto {
+  padding: 1rem;
+  max-width: 350px;
+  font-family: 'Montserrat', sans-serif;
+  color: var(--claro);
+}
+
+.hero_bottom {
+background-color: var(--claro);
+min-height: 260px;
+padding: 1rem;
+}   
+.hero_bottom-titulo {
+  font-size: 2.6rem;
+  color: var(--primario);
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  user-select: none;
+}
+
+
+.hero_botom-logos {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem;
+  
+}
+
+.hero_botom-logos img {
+  height: 135px;
+}
+
+
+/* HERO BOTTOM // MARCAS SECUNDARIAS */
+
+.marcas_secundarias h2 {
+  color: var(--primario);
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.marcas_secundarias-contenedor {
+  display: flex;
+  justify-content: center;
+}
+
+.marcas_secundarias-imagenContenedor {
+  height: 210px;
+  width: 210px;
+  margin: 1rem 0;
+  padding: 1.5rem;
+}
+
+.marcas_secundarias-imagenContenedor img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  outline: .3rem solid var(--secundario);
+}
+
+/* NOSOTROS */
+
+.nosotros {
+  min-height: 690px;
+  background-image: url("../img/racks.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+}
+
+.nosotros_left {
+  gap: 16px;
+  padding-right: 2rem;
+  user-select: none;
+}
+
+.nosotros_left-imagen img {
+  height: 115px;
+  filter: invert(1);
+}
+
+.nosotros_left-texto {
+  color: var(--claro);
+  font-size: 1.2rem;
+}
+.nosotros_right {
+  width: 50%;
+  gap: 16px;
+  padding-left: 2rem;
+}
+
+.nosotros_right-texto {
+  color: var(--claro);
+  user-select: none;
+}
+
+.nosotros_right-texto h3 {
+  font-size: 3rem;
+}
+
+.nosotros_right-texto hr {
+  border: solid var(--claro);
+  border-width:3px;
+  width: 16rem;
+}
+
+.nosotros_right-texto p {
+  width: 85%;
+  padding-top: 3rem;
+  letter-spacing: 1px;
+}
+
+.button button {
+  color: var(--claro);
+  border: solid 2.5px var(--claro);
+  border-radius: 5px;
+  font-size: 1rem;
+  margin: 2rem 0 0 0px;
+  padding: 12px 30px;
+  cursor: pointer;
+  background: none;
+  transition: .3s;
+  
+}
+
+.button button:hover {
+  background-color: var(--primario);
+  color: var(--claro);
+  border: solid 2.5px var(--claro);
+}

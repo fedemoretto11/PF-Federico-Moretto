@@ -1,0 +1,26 @@
+:root {
+  --primario: #243773;
+  --secundario: #f2c778;
+  --terciario: #0378A6;
+  --claro: #F2F2F2;
+  --negro: #0D0D0D;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import 'header';
+@import 'footer';
+@import 'divisor';
+@import 'index';
+@import 'nosotros';
+@import 'contacto';
+@import 'servicios';
+@import 'productos';
+@import 'media-query';
+
+
+
+
