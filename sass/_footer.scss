@@ -1,10 +1,9 @@
 footer {
   min-height: 60px;
-  background-color: var(--primario);
+  background-color: $colorPrimario;
   font-family: 'Montserrat', sans-serif;
-  color: var(--claro);
-}
-
-footer p {
-  margin: 0;
+  color: $colorClaro;
+  p {
+    margin: 0;
+  }
 }

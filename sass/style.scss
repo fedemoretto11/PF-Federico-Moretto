@@ -1,16 +1,5 @@
-:root {
-  --primario: #243773;
-  --secundario: #f2c778;
-  --terciario: #0378A6;
-  --claro: #F2F2F2;
-  --negro: #0D0D0D;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
+@import 'variables';
+@import 'estilos-generales';
 @import 'header';
 @import 'footer';
 @import 'divisor';

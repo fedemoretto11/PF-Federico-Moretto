@@ -1,7 +1,7 @@
 // Hero
 
 #hero {
-  background-color: var(--primario);
+  background-color: $colorPrimario;
 }
 
 .carrousel {
@@ -14,30 +14,29 @@
 .carrousel_imagen {
   width: 700px;
   height: 500px;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 }
 
-.carrousel_imagen img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-
-}
 
 .carrousel_texto {
   padding: 1rem;
   max-width: 350px;
   font-family: 'Montserrat', sans-serif;
-  color: var(--claro);
+  color: $colorClaro;
 }
 
 .hero_bottom {
-background-color: var(--claro);
+background-color: $colorClaro;
 min-height: 260px;
 padding: 1rem;
 }   
 .hero_bottom-titulo {
   font-size: 2.6rem;
-  color: var(--primario);
+  color: $colorPrimario;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   user-select: none;
@@ -49,18 +48,15 @@ padding: 1rem;
   justify-content: space-evenly;
   align-items: center;
   padding: 2rem;
-  
+  img {
+    height: 135px;
+  }
 }
-
-.hero_botom-logos img {
-  height: 135px;
-}
-
 
 /* HERO BOTTOM // MARCAS SECUNDARIAS */
 
 .marcas_secundarias h2 {
-  color: var(--primario);
+  color: $colorPrimario;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
@@ -75,15 +71,15 @@ padding: 1rem;
   width: 210px;
   margin: 1rem 0;
   padding: 1.5rem;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    outline: .3rem solid $colorSecundario;
+  }
 }
 
-.marcas_secundarias-imagenContenedor img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 50%;
-  outline: .3rem solid var(--secundario);
-}
 
 /* NOSOTROS */
 
@@ -102,15 +98,15 @@ padding: 1rem;
   gap: 16px;
   padding-right: 2rem;
   user-select: none;
+  img {
+    height: 115px;
+    filter: invert(1);
+  }
 }
 
-.nosotros_left-imagen img {
-  height: 115px;
-  filter: invert(1);
-}
 
 .nosotros_left-texto {
-  color: var(--claro);
+  color: $colorClaro;
   font-size: 1.2rem;
 }
 .nosotros_right {
@@ -120,29 +116,26 @@ padding: 1rem;
 }
 
 .nosotros_right-texto {
-  color: var(--claro);
+  color: $colorClaro;
   user-select: none;
-}
-
-.nosotros_right-texto h3 {
-  font-size: 3rem;
-}
-
-.nosotros_right-texto hr {
-  border: solid var(--claro);
-  border-width:3px;
-  width: 16rem;
-}
-
-.nosotros_right-texto p {
-  width: 85%;
-  padding-top: 3rem;
-  letter-spacing: 1px;
+  h3 {
+    font-size: 3rem;
+  }
+  hr {
+    border: solid $colorClaro;
+    border-width:3px;
+    width: 16rem;
+  }
+  p {
+    width: 85%;
+    padding-top: 3rem;
+    letter-spacing: 1px;
+  }
 }
 
 .button button {
-  color: var(--claro);
-  border: solid 2.5px var(--claro);
+  color: $colorClaro;
+  border: solid 2.5px $colorClaro;
   border-radius: 5px;
   font-size: 1rem;
   margin: 2rem 0 0 0px;
@@ -154,7 +147,7 @@ padding: 1rem;
 }
 
 .button button:hover {
-  background-color: var(--primario);
-  color: var(--claro);
-  border: solid 2.5px var(--claro);
+  background-color: $colorPrimario;
+  color: $colorClaro;
+  border: solid 2.5px $colorClaro;
 }

@@ -1,53 +1,48 @@
 @media screen and (max-width: 1100px) {
   .contacto_main-map iframe {
-      width: 100%;
+    width: 100%;
   }
 
   .nosotros_main_bottom-titulo hr,
   .servicios_titulo hr {
-      display: none;
+    display: none;
   }
 
   .nosotros_left {
-      width: 100%;
+    width: 100%;
   }
   .nosotros_right {
-      width: 100%;
+    width: 100%;
   }
 
-
   .servicios_cards-imagen {
-      margin-bottom: 2rem;
+    margin-bottom: 2rem;
   }
 
   .cards_productos {
-      margin: 1rem;
+    margin: 1rem;
   }
 
   .productos {
-      padding-bottom: 3rem;
+    padding-bottom: 3rem;
   }
 
   .carrousel_texto {
-      max-width: 600px;
+    max-width: 600px;
   }
 
   .carrousel_texto {
-      text-align: center;
+    text-align: center;
   }
-  
 }
 
 @media screen and (max-width: 767px) {
   .servicios_cards-texto h3,
-  .servicios_cards-texto p
-  {
-      text-align: center;
+  .servicios_cards-texto p {
+    text-align: center;
   }
 
   .carrousel_imagen {
-      height: 275px;
+    height: 275px;
   }
-
-  
 }
