@@ -10,8 +10,8 @@ function cambiarMarcas() {
         numeroAleatorio = Math.floor(Math.random() * data.length);
       } while (numerosAleatorios.includes(numeroAleatorio));
       numerosAleatorios.push(numeroAleatorio);
-      imagenesSecundarias[i].src = data[numeroAleatorio].url;
-      imagenesSecundarias[i].setAttribute("alt", data[numeroAleatorio].alt);
+      imagenesSecundarias[i].src = `../${data[numeroAleatorio].url}`;
+      imagenesSecundarias[i].setAttribute("alt", `../${data[numeroAleatorio].alt}`);
       // console.log(numerosAleatorios);
     }
   })

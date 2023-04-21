@@ -1,37 +1,37 @@
 [
   {
     "titulo": "Nuestros productos",
-    "imagen": "../img/carrousel/productos.webp",
+    "imagen": "img/carrousel/productos.webp",
     "altImagen": "Productos Arcor",
     "texto": "La mas amplia variedad de productos de consumo masivo" 
   },
   {
     "titulo": "Mision",
-    "imagen": "../img/carrousel/mision.webp",
+    "imagen": "img/carrousel/mision.webp",
     "altImagen": "Dardo representando la mision",
     "texto": "Visitar todas la bocas de expendio minoristas, logrando una efectividad de atencion del 95%"
   },
   {
     "titulo": "Vision",
-    "imagen": "../img/carrousel/vision.webp",
+    "imagen": "img/carrousel/vision.webp",
     "altImagen": "Hombre viendo por la ventana de un edificio",
     "texto": "Convertirse en el proveedor preferido en la zona para comercializar y distribuir productos de consumo masivo, ofreciendo soluciones líderes al Canal Minorista."
   },
   {
     "titulo": "VALORES: LOS CLIENTES",
-    "imagen": "../img/carrousel/clientes.webp",
+    "imagen": "img/carrousel/clientes.webp",
     "altImagen": "Gente consumiendo productos Arcor Alimentos",
     "texto": "Construir una relación de confianza y satisfacción duradera, basada en una comunicación efectiva, un excelente servicio al cliente y la capacidad de entender y satisfacer sus necesidades y expectativas."
   },
   {
     "titulo": "VALORES: EL PERSONAL",
-    "imagen": "../img/carrousel/personal.webp",
+    "imagen": "img/carrousel/personal.webp",
     "altImagen": "Personal de una empresa en reunion",
     "texto": "El éxito de una empresa depende del bienestar del personal, y esto se logra con un entorno laboral positivo y equitativo que fomente su crecimiento personal y profesional."
   },
   {
     "titulo": "VALORES: LA COMUNIDAD",
-    "imagen": "../img/carrousel/comunidad.webp",
+    "imagen": "img/carrousel/comunidad.webp",
     "altImagen": "Comunidad en un parque",
     "texto": "Continuar apoyando a la comunidad con solidaridad y compasión para construir una relación positiva y duradera."
   }
