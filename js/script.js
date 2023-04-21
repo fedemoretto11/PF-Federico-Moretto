@@ -11,6 +11,9 @@ const marcaSecundaria3 = document.getElementById("marcaSecundaria3");
 const marcaSecundaria4 = document.getElementById("marcaSecundaria4");
 const marcaSecundaria5 = document.getElementById("marcaSecundaria5");
 
+// Variables historia en index
+
+
 
 // Funcion Carrousel
 
@@ -36,7 +39,7 @@ function cambiarContendio() {
       setTimeout(() => {
         carrousel.classList.remove("animate__fadeInRight");
       }, 1000)
-    }, 1000)
+    }, 500)
   })
   .catch(error => console.error(error));
 }
@@ -57,13 +60,34 @@ function cambiarMarcas() {
       numerosAleatorios.push(numeroAleatorio);
       imagenesSecundarias[i].src = data[numeroAleatorio].url;
       imagenesSecundarias[i].setAttribute("alt", data[numeroAleatorio].alt);
-      console.log(numerosAleatorios);
+      // console.log(numerosAleatorios);
     }
   })
   .catch(error => console.error(error));
+}
+
+// Funcion animacion Nosotros
+
+function animacionNosotros(){
+  const verificarVisibilidad = (entries) => {
+    const entry = entries[0];
+    console.log(entry.isIntersecting);
+    if (entry.isIntersecting == true) {
+      document.querySelector(".nosotros_left").classList.add("animate__slideInLeft");
+      document.querySelector(".nosotros_right").classList.add("animate__slideInRight");
+    } else {
+      document.querySelector(".nosotros_left").classList.remove("animate__slideInLeft");
+      document.querySelector(".nosotros_right").classList.remove("animate__slideInRight");
+    }
+  }
+  const observer = new IntersectionObserver(verificarVisibilidad);
+  const nosotros = document.querySelector(".nosotros");
+  observer.observe(nosotros);
 }
 
 // Llamado funciones
 
 setInterval(cambiarContendio, 8000);
 setInterval(cambiarMarcas, 2000);
+animacionNosotros();
+
