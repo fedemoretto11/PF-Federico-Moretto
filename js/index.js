@@ -4,17 +4,6 @@ const tituloCarrousel = document.getElementById("tituloCarrousel");
 const textoCarrousel = document.getElementById("textoCarrousel");
 const carrousel = document.querySelector(".carrousel");
 
-// Variables de las marcas Secundarias
-const marcaSecundaria1 = document.getElementById("marcaSecundaria1");
-const marcaSecundaria2 = document.getElementById("marcaSecundaria2");
-const marcaSecundaria3 = document.getElementById("marcaSecundaria3");
-const marcaSecundaria4 = document.getElementById("marcaSecundaria4");
-const marcaSecundaria5 = document.getElementById("marcaSecundaria5");
-
-// Variables historia en index
-
-
-
 // Funcion Carrousel
 
 let contador = 0;
