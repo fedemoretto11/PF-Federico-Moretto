@@ -57,6 +57,7 @@ body {
 
 footer {
   min-height: 60px;
+  padding-top: 5px;
   background-color: #243773;
   font-family: "Montserrat", sans-serif;
   color: #F2F2F2;
@@ -163,7 +164,7 @@ footer p {
 /* NOSOTROS */
 .nosotros {
   min-height: 690px;
-  background-image: url("../img/racks.jpg");
+  background-image: url("../img/racks.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -585,19 +586,20 @@ footer p {
     padding-bottom: 3rem;
   }
   .carrousel_texto {
-    max-width: 800px;
+    max-width: 700px;
     height: 275px;
-  }
-  .carrousel_texto {
     text-align: center;
+  }
+  .carrousel_texto p {
+    width: 100%;
+  }
+  .carrousel_imagen {
+    height: 275px;
   }
 }
 @media screen and (max-width: 767px) {
   .servicios_cards-texto h3,
   .servicios_cards-texto p {
     text-align: center;
-  }
-  .carrousel_imagen {
-    height: 275px;
   }
 }/*# sourceMappingURL=style.css.map */

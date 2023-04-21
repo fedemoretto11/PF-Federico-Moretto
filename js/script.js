@@ -63,11 +63,6 @@ function cambiarMarcas() {
   .catch(error => console.error(error));
 }
 
-
-
-
-
-
 // Llamado funciones
 
 setInterval(cambiarContendio, 8000);
