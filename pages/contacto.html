@@ -114,8 +114,20 @@
                 <label for="consulta"></label>
                 <textarea name="consulta" cols="50%" rows="14" placeholder="Tu consulta"></textarea>     
 
-                <label for="cv" class="fileLabel"></label>    
-                <input type="file" placeholder="Ingrese un archivo" name="cv" accept=".pdf,.doc,.docx" class="fileInput">      
+                <div class="fileInput-container">
+                  <input type="file" id="cv" placeholder="Ingrese un archivo" name="cv" accept=".pdf,.doc,.docx" class="fileInput">      
+                  <label for="cv" class="fileLabel">
+                    <span class="fileInput_name">
+                      <span>
+                        Ningun archivo seleccionado
+                      </span>
+                    </span>
+                    <span class="fileInput_button">
+                      Buscar archivo
+                    </span>
+                  </label>    
+                </div>
+                
                 
                 <button type="submit" class="form_button">Enviar</button>     
               </form>
@@ -136,7 +148,7 @@
       </div>
   </footer>
 
-  
+  <script src="../js/botonFormulario.js"></script>
 </body>
 </html>
 

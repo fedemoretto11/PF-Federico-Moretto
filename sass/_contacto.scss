@@ -1,4 +1,5 @@
 @import 'variables';
+@import 'boton-formulario';
 
 .contacto_top {
   height: 10rem;
@@ -33,6 +34,7 @@
   margin-top: 20px;
   iframe {
     width: 550px;
+    height: 690px;
   }
 }
 
@@ -65,10 +67,12 @@
     input  {
       width: 100%;
       height: 2rem;
-      border: solid 1.5px $colorPrimario;
+      border: solid 2px $colorPrimario;
+      border-radius: 5px;
     }
     textarea {
-      border: solid 1.5px $colorPrimario;
+      border: solid 2px $colorPrimario;
+      border-radius: 5px;
       width: 100%;
     }
   }
@@ -101,6 +105,7 @@
   font-family: $fuentePrimaria;
   color: $colorPrimario;
   font-size: .9rem;
+  padding-left: 3px;
 
 }
 

@@ -1,0 +1,45 @@
+@import 'variables';
+
+.fileInput-container {
+  width: 100%;
+  margin: 0;
+  label {
+    width: 100%;
+  }
+}
+
+.fileInput {
+  display: none;
+  
+}
+
+.fileInput + label {
+  display: flex;
+  flex: 1;
+  
+}
+.fileInput_name,
+.fileInput_button {
+  padding: 6px 15px;
+}
+.fileInput_name {
+  background-color: $colorClaro;
+  border: 2px solid $colorPrimario;
+  border-radius: 5px 0 0 5px;
+  flex: 1;
+  span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+  }
+}
+
+.fileInput_button {
+  background: $colorSecundario url(../ico/upload.png) 4px center/25px no-repeat;
+  border: 2px solid $colorPrimario;
+  border-radius: 0 5px 5px 0;
+  white-space: nowrap;
+  cursor: pointer;
+  padding-left: 33px;
+}
