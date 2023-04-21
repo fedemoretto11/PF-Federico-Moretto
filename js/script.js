@@ -12,24 +12,6 @@ const marcaSecundaria4 = document.getElementById("marcaSecundaria4");
 const marcaSecundaria5 = document.getElementById("marcaSecundaria5");
 
 
-
-
-// Variables contenido marcas secundariass
-
-const imagenesMarcas = [
-  "img/marcas-secundarias/aguila.jpg",
-  "img/marcas-secundarias/bon-o-bon.png",
-  "img/marcas-secundarias/butter-toffees.jpg",
-  "img/marcas-secundarias/chocolinas.png",
-  "img/marcas-secundarias/salsati.jpg",
-  "img/marcas-secundarias/mogul.jpg",
-  "img/marcas-secundarias/rocklets.jpg",
-  "img/marcas-secundarias/topline.png",
-  "img/marcas-secundarias/cofler.jpg",
-  "img/marcas-secundarias/bc.jpg",
-  "img/marcas-secundarias/criollitas.jpg"
-]
-
 // Funcion Carrousel
 
 let contador = 0;
@@ -39,7 +21,6 @@ function cambiarContendio() {
   .then(response => response.json())
   .then(data => {
     console.log(data);
-    
     carrousel.classList.add("animate__fadeOutLeft");
     setTimeout(() => {
       contador++;
@@ -51,7 +32,6 @@ function cambiarContendio() {
       tituloCarrousel.innerHTML = data[contador].titulo;
       textoCarrousel.innerHTML = data[contador].texto;
       carrousel.classList.remove("animate__fadeOutLeft");
-
       carrousel.classList.add("animate__fadeInRight");
       setTimeout(() => {
         carrousel.classList.remove("animate__fadeInRight");
@@ -64,21 +44,23 @@ function cambiarContendio() {
 // Funcion cambio marcas
 
 function cambiarMarcas() {
-  const imagenesSecundarias = document.querySelectorAll('.marca-secundaria');
-  const numerosAleatorios = [];
-
-  for (let i = 0; i < imagenesSecundarias.length; i++) {
+  fetch('json/datosMarcasSecundarias.json')
+  .then(response => response.json())
+  .then(data => {
+    const imagenesSecundarias = document.querySelectorAll('.marca-secundaria');
+    const numerosAleatorios = [];
     let numeroAleatorio;
-
-    do {
-      numeroAleatorio = Math.floor(Math.random() * imagenesMarcas.length);
-    } while (numerosAleatorios.includes(numeroAleatorio));
-
-    numerosAleatorios.push(numeroAleatorio);
-    imagenesSecundarias[i].src = imagenesMarcas[numeroAleatorio];
-  }
-  
-  console.log(numerosAleatorios);
+    for (let i = 0; i < imagenesSecundarias.length; i++) {
+      do {
+        numeroAleatorio = Math.floor(Math.random() * data.length);
+      } while (numerosAleatorios.includes(numeroAleatorio));
+      numerosAleatorios.push(numeroAleatorio);
+      imagenesSecundarias[i].src = data[numeroAleatorio].url;
+      imagenesSecundarias[i].setAttribute("alt", data[numeroAleatorio].alt);
+      console.log(numerosAleatorios);
+    }
+  })
+  .catch(error => console.error(error));
 }
 
 
@@ -89,4 +71,4 @@ function cambiarMarcas() {
 // Llamado funciones
 
 setInterval(cambiarContendio, 8000);
-// setInterval(cambiarMarcas, 2500);
+setInterval(cambiarMarcas, 2000);
