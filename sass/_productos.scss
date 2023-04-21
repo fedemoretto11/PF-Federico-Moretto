@@ -7,7 +7,7 @@
 
 .productos_titulo {
   margin-top: 2rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: $fuentePrimaria;
   color: $colorClaro;
   display: flex;
   flex-direction: column;
@@ -47,7 +47,7 @@
 
 .cards_productos h4 {
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: $fuentePrimaria;
   color: $colorClaro;
 }
 .cards_productos-imagenContenedor {

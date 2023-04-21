@@ -18,7 +18,7 @@
     text-decoration: none;
     color: $colorPrimario;
     font-size: .9rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $fuentePrimaria;
   }
 }
 
@@ -37,7 +37,7 @@
   margin-right: 12px;
   font-size: 1.2rem;
   color: $colorPrimario;
-  font-family: 'Montserrat', sans-serif;
+  font-family: $fuentePrimaria;
   transition: .3s;
 }
 

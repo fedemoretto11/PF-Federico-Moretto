@@ -1,0 +1,41 @@
+[
+  {
+    "titulo": "Productos",
+    "imagen": "../img/sales.jpg",
+    "altImagen": "fede",
+    "texto": "Visitar todas la bocas de expendio minoristas, logrando una efectividad de atencion del 95%" 
+  },
+  {
+    "titulo": "Mision",
+    "imagen": "../img/sales.jpg",
+    "altImagen": "more",
+    "texto": "Visitar todas la bocas de expendio minoristas, logrando una efectividad de atencion del 95%" 
+  },
+  {
+    "titulo": "Vision",
+    "imagen": "../img/salsati.jpg",
+    "altImagen": "tito",
+    "texto": "Ser el proveedor preferido en servicio de comercializacion y distribucion de productos de consumo masivo de la zona"
+  },
+  {
+    "titulo": "VALORES: LOS CLIENTES",
+    "imagen": "../img/salsati.jpg",
+    "altImagen": "pepe",
+    "texto": "Ser el proveedor preferido en servicio de comercializacion y distribucion de productos de consumo masivo de la zona"
+  },
+  {
+    "titulo": "VALORES: EL PERSONAL",
+    "imagen": "../img/salsati.jpg",
+    "altImagen": "rama",
+    "texto": "Ser el proveedor preferido en servicio de comercializacion y distribucion de productos de consumo masivo de la zona"
+  },
+  {
+    "titulo": "VALORES: LA COMUNIDAD",
+    "imagen": "../img/salsati.jpg",
+    "altImagen": "juanca",
+    "texto": "Ser el proveedor preferido en servicio de comercializacion y distribucion de productos de consumo masivo de la zona"
+  }
+]
+
+
+

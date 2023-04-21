@@ -26,7 +26,7 @@
   padding: 1rem;
   max-width: 350px;
   max-height: 200px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: $fuentePrimaria;
   color: $colorClaro;
 }
 
@@ -38,7 +38,7 @@ padding: 1rem;
 .hero_bottom-titulo {
   font-size: 2.6rem;
   color: $colorPrimario;
-  font-family: 'Montserrat', sans-serif;
+  font-family: $fuentePrimaria;
   text-align: center;
   user-select: none;
 }
@@ -58,7 +58,7 @@ padding: 1rem;
 
 .marcas_secundarias h2 {
   color: $colorPrimario;
-  font-family: 'Montserrat', sans-serif;
+  font-family: $fuentePrimaria;
   text-align: center;
 }
 
@@ -91,7 +91,7 @@ padding: 1rem;
   background-size: cover;
   background-position: top;
   background-attachment: fixed;
-  font-family: 'Montserrat', sans-serif;
+  font-family: $fuentePrimaria;
   padding: 10px;
 }
 
