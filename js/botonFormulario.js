@@ -6,8 +6,11 @@ Array.from(files).forEach(
       const span = document.querySelector(".fileInput_name > span");
       if (files.length == 0) {
         span.innerHTML = "Ningun archivo seleccionado"  
+        
       } else {
         span.innerHTML = f.files[0].name;
+        console.log(f.files);
+
       }
     })
   }

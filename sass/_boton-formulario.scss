@@ -25,13 +25,17 @@
 .fileInput_name {
   background-color: $colorClaro;
   border: 2px solid $colorPrimario;
+  border-right: none;
   border-radius: 5px 0 0 5px;
   flex: 1;
+  min-width: 20%;
   span {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     display: block;
+    width: 100%;
+
   }
 }
 

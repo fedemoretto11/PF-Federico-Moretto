@@ -45,6 +45,10 @@
     padding-top: 10px;
   }
 
+  .contacto_main-form {
+    width: 100%;
+  }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -56,10 +60,17 @@
     }
   }
 
-
   .contacto_main-map iframe {
     width: 100%;
     height: 400px;
+  }
+
+  .marcas_secundarias-imagenContenedor {
+    margin: .5rem;
+    padding: 0.5rem;
+    img {
+      outline: .4rem solid $colorSecundario;
+    }
   }
 
 
