@@ -435,6 +435,7 @@ footer p {
   margin-bottom: 3rem;
 }
 .contacto_main-form form {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -663,8 +664,11 @@ footer p {
   }
 }
 @media screen and (max-width: 767px) {
-  .servicios_cards-texto h3,
-  .servicios_cards-texto p {
+  .servicios_cards-texto {
+    width: 100%;
+    padding: 0;
+  }
+  .servicios_cards-texto h3, .servicios_cards-texto p {
     text-align: center;
   }
   .contacto_main-map iframe {
