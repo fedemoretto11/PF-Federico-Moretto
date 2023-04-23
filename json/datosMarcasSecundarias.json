@@ -38,5 +38,34 @@
   {
     "url":"img/marcas-secundarias/criollitas.webp",
     "alt": "Logo Criollitas"
+  },
+  {
+    "url":"img/marcas-secundarias/prestopronta.webp",
+    "alt": "Logo PrestoPronta"
+  },
+  {
+    "url":"img/marcas-secundarias/godet.webp",
+    "alt": "Logo Godet"
+  },
+  {
+    "url":"img/marcas-secundarias/mrpops.webp",
+    "alt": "Logo Mr Pops"
+  },
+  {
+    "url":"img/marcas-secundarias/menthoplus.webp",
+    "alt": "Logo MenthoPlus"
+  },
+  {
+    "url":"img/marcas-secundarias/tofi.webp",
+    "alt": "Logo Tofi"
+  },
+  {
+    "url":"img/marcas-secundarias/cabsha.webp",
+    "alt": "Logo Cabsha"
+  },
+  {
+    "url":"img/marcas-secundarias/cerealmix.webp",
+    "alt": "Logo Cereal Mix"
   }
+
 ]
