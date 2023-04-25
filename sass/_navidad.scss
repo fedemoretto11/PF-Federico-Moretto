@@ -1,0 +1,45 @@
+$navidad: "no";
+
+@mixin motivos-navidad {
+  @if $navidad == "si" {
+    .header_top {
+      background-color: green;
+    }
+    .header_top-card {
+      color: red;
+      i {
+        color: red;
+      }
+      img {
+        color: red;
+      }
+      a {
+        color: red;
+      }
+    }
+
+    .navbar {
+      background-color: rgb(19, 128, 19);
+      .link {
+        color: red;
+      }
+    }
+  
+
+    .hero_bottom {
+      background-color: rgb(12, 112, 42);
+      h1 {
+        color: red;
+      }
+      
+    }
+    .marcas_secundarias {
+      background-color: rgb(12, 112, 42);
+      h2 {
+        color: red;
+      }
+    }
+  }
+}
+
+@include motivos-navidad;
