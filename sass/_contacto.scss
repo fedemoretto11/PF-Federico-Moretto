@@ -1,5 +1,4 @@
-@import 'variables';
-@import 'boton-formulario';
+
 
 .contacto_top {
   height: 10rem;
@@ -89,14 +88,13 @@
   cursor: pointer;
   background-color: $colorSecundario;
   transition: .3s;
-  
+  &:hover{
+    background-color: $colorPrimario;
+    color: $colorSecundario;
+    border: solid 2px $colorSecundario;
+  }
 }
 
-.form_button:hover {
-  background-color: $colorPrimario;
-  color: $colorClaro;
-  border: solid 2px $colorClaro;
-}
 
 .contacto_main-form form textarea::placeholder,
 .contacto_main-form form input::placeholder,

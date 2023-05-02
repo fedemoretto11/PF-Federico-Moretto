@@ -94,7 +94,7 @@ footer p {
   height: 500px;
 }
 .carrousel_imagen img {
-  width: 100%;
+  max-width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -153,7 +153,7 @@ footer p {
   padding: 1.5rem;
 }
 .marcas_secundarias-imagenContenedor img {
-  width: 100%;
+  max-width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -208,10 +208,10 @@ footer p {
 .nosotros_right-texto hr {
   border: solid #F2F2F2;
   border-width: 3px;
-  width: 16rem;
+  max-width: 16rem;
 }
 .nosotros_right-texto p {
-  width: 85%;
+  max-width: 85%;
   padding-top: 3rem;
   letter-spacing: 1px;
 }
@@ -467,11 +467,10 @@ footer p {
   background-color: #f2c778;
   transition: 0.3s;
 }
-
 .form_button:hover {
   background-color: #243773;
-  color: #F2F2F2;
-  border: solid 2px #F2F2F2;
+  color: #f2c778;
+  border: solid 2px #f2c778;
 }
 
 .contacto_main-form form textarea::-moz-placeholder, .contacto_main-form form input::-moz-placeholder {
@@ -629,17 +628,17 @@ footer p {
 
 @media screen and (max-width: 1100px) {
   .contacto_main-map iframe {
-    width: 100%;
+    max-width: 100%;
   }
   .nosotros_main_bottom-titulo hr,
   .servicios_titulo hr {
     display: none;
   }
   .nosotros_left {
-    width: 100%;
+    max-width: 100%;
   }
   .nosotros_right {
-    width: 100%;
+    max-width: 100%;
   }
   .servicios_cards-imagen {
     margin-bottom: 2rem;
@@ -665,7 +664,7 @@ footer p {
     padding-top: 10px;
   }
   .contacto_main-form {
-    width: 100%;
+    max-width: 100%;
   }
 }
 @media screen and (max-width: 767px) {
