@@ -2,12 +2,14 @@
 
 .contacto_top {
   height: 10rem;
-  background-color: $colorPrimario;
+  background: linear-gradient(to bottom, $colorPrimario 0%, $colorTerciario 40%);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   gap: 1rem;
 }
+
+
 
 .contacto_top-cards a {
   text-decoration: none;
@@ -28,9 +30,10 @@
 }
 
 .contacto_main-map {
-  border: .15rem solid $colorSecundario;
+  border: .25rem solid $colorSecundario;
   box-shadow: 0 0 5px $colorPrimario;
   margin-top: 20px;
+  border-radius: 5px;
   iframe {
     width: 550px;
     height: 690px;
@@ -107,6 +110,7 @@
   padding-left: 3px;
 
 }
+
 
 
 .titulo {
