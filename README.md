@@ -4,6 +4,9 @@ Este es el repositorio del proyecto final de Federico Moretto para el curso de D
 Descripción del proyecto
 El proyecto consiste en el desarrollo de un sitio web utilizando buenas prácticas de HTML, CSS y SASS. Además, Federico decidió agregar JavaScript al proyecto, aunque no era necesario para cumplir con los requisitos del curso. El objetivo del proyecto es aplicar los conocimientos adquiridos durante el curso para crear un sitio web atractivo y funcional, que pueda ser utilizado como portafolio o presentación de un negocio o servicio.
 
+En este caso la eleccion fue el desarrollo del sitio Web de la empresa familiar, una dsitribuidora ofical de productos Arcor
+
+
 Estructura del repositorio
 El repositorio está organizado de la siguiente manera:
 
