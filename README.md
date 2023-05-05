@@ -18,6 +18,8 @@ css/: contiene los archivos CSS generados a partir de los archivos SASS.
 
 js/: contiene el archivo JavaScript que se agregó al proyecto.
 
+json/: contiene archivos json con variables para los scripts
+
 sass/: contiene los archivos SASS utilizados para generar los estilos CSS del sitio web.
 
 pages/: contiene los demas arhcivos HTMLK (Contacto, Nosotros, Productos, Servicios)
