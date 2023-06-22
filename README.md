@@ -1,73 +1,61 @@
-# Español
-
-## Proyecto Final Desarrollo Web | Proyecto Moretto
+# Distribuidora Moretto - Proyecto Final de Desarrollo Web
 
 
-### Link del Proyecto: https://distribuidoramoretto.000webhostapp.com/index.html
+## Descripción del Proyecto
+Este repositorio contiene el proyecto final de desarrollo web realizado por Federico Moretto para el curso de Desarrollo Web de Coderhouse. El objetivo del proyecto es crear un sitio web para la empresa familiar, Distribuidora Moretto, que se dedica a la distribución oficial de productos Arcor.
 
 
-### Descripción del proyecto
+El sitio web fue desarrollado siguiendo buenas prácticas de HTML, CSS y SASS. Además, se agregó funcionalidad interactiva utilizando JavaScript para mejorar la experiencia del usuario.
 
-Proyecto Final Desarrollo Web.
-Este es el repositorio del proyecto final de Federico Moretto para el curso de Desarrollo Web de Coderhouse.
-El proyecto consiste en el desarrollo de un sitio web utilizando buenas prácticas de HTML, CSS y SASS. Además, Federico decidió agregar JavaScript al proyecto, aunque no era necesario para cumplir con los requisitos del curso. El objetivo del proyecto es aplicar los conocimientos adquiridos durante el curso para crear un sitio web atractivo y funcional, que pueda ser utilizado como portafolio o presentación de un negocio o servicio.
-En este caso la eleccion fue el desarrollo del sitio Web de la empresa familiar, una dsitribuidora ofical de productos Arcor
-
-
-### Estructura
-
+## Enlaces del Proyecto
+Sitio web en vivo: [Distribuidora Moretto](https://distribuidoramoretto.000webhostapp.com/index.html)
+## Estructura del Proyecto
 El repositorio está organizado de la siguiente manera:
 
-img/: contiene los archivos de imágenes
+- img/: Carpeta que contiene los archivos de imágenes utilizados en el sitio web.
+- ico/: Carpeta que contiene el favicon del sitio web.
+- css/: Carpeta que contiene los archivos CSS generados a partir de los archivos SASS.
+- js/: Carpeta que contiene el archivo JavaScript agregado al proyecto.
+- json/: Carpeta que contiene archivos JSON con variables utilizadas en los scripts.
+- sass/: Carpeta que contiene los archivos SASS utilizados para generar los estilos CSS del sitio web.
+- pages/: Carpeta que contiene los archivos HTML adicionales del sitio web, como Contacto, Nosotros, Productos y Servicios.
+- index.html: Archivo HTML principal del sitio web.
+# Contribuciones
+Este proyecto fue desarrollado por Federico Moretto como parte de su curso de Desarrollo Web. No se aceptan contribuciones externas en este momento.
 
-ico/: contiene el favicono
+# Contacto
+Si tienes alguna pregunta o sugerencia sobre este proyecto, puedes contactar a Federico Moretto a través de correo electrónico.
 
-css/: contiene los archivos CSS generados a partir de los archivos SASS.
+¡Gracias por visitar Distribuidora Moretto! Esperamos que disfrutes navegando por nuestro sitio web.
 
-js/: contiene el archivo JavaScript que se agregó al proyecto.
-
-json/: contiene archivos json con variables para los scripts
-
-sass/: contiene los archivos SASS utilizados para generar los estilos CSS del sitio web.
-
-pages/: contiene los demas arhcivos HTMLK (Contacto, Nosotros, Productos, Servicios)
-
-index.html: es el archivo HTML principal del sitio web.
-
+  
 _____
 
-# English
+  
+# Distribuidora Moretto - Final Web Development Project
 
-## Final Web Development Project | Moretto Project
+## Project Description
+This repository contains the final web development project created by Federico Moretto for the Web Development course at Coderhouse. The objective of the project is to create a website for the family company, Distribuidora Moretto, which specializes in the official distribution of Arcor products.
 
+The website was developed following best practices in HTML, CSS, and SASS. Additionally, interactive functionality was implemented using JavaScript to enhance the user experience.
 
-### Project Link: https://distribuidoramoretto.000webhostapp.com/index.html
-
-
-### Project Description
-
-Final Web Development Project.
-This is the repository for Federico Moretto's final project for the Web Development course at Coderhouse.
-The project consists of developing a website using best practices in HTML, CSS, and SASS. Additionally, Federico decided to add JavaScript to the project, even though it was not required to meet the course requirements. The goal of the project is to apply the knowledge acquired during the course to create an attractive and functional website that can be used as a portfolio or presentation for a business or service.
-In this case, the choice was to develop the website for the family company, an official distributor of Arcor products.
-
-
-### Structure
-
+## Project Links
+Live website: [Distribuidora Moretto](https://distribuidoramoretto.000webhostapp.com/index.html)
+## Project Structure
 The repository is organized as follows:
 
-img/: contains image files
+- img/: Folder containing the image files used in the website.
+- ico/: Folder containing the website favicon.
+- css/: Folder containing the CSS files generated from the SASS files.
+- js/: Folder containing the JavaScript file added to the project.
+- json/: Folder containing JSON files with variables used in the scripts.
+- sass/: Folder containing the SASS files used to generate the CSS styles for the website.
+- pages/: Folder containing additional HTML files of the website, such as Contact, About Us, Products, and Services.
+- index.html: Main HTML file of the website.
+## Contributions
+This project was developed by Federico Moretto as part of his Web Development course. External contributions are not accepted at this time.
 
-ico/: contains the favicon
+## Contact
+If you have any questions or suggestions regarding this project, you can contact Federico Moretto via email.
 
-css/: contains the CSS files generated from the SASS files.
-
-js/: contains the JavaScript file that was added to the project.
-
-json/: contains json files with variables for the scripts.
-
-sass/: contains the SASS files used to generate the CSS styles for the website.
-
-pages/: contains the other HTML files (Contacto, Nosotros, Productos, Servicios)
-
-index.html: the main HTML file of the website.
+Thank you for visiting Distribuidora Moretto! We hope you enjoy browsing our website.
