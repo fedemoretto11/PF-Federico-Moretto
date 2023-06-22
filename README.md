@@ -20,10 +20,10 @@ El repositorio está organizado de la siguiente manera:
 - sass/: Carpeta que contiene los archivos SASS utilizados para generar los estilos CSS del sitio web.
 - pages/: Carpeta que contiene los archivos HTML adicionales del sitio web, como Contacto, Nosotros, Productos y Servicios.
 - index.html: Archivo HTML principal del sitio web.
-# Contribuciones
+## Contribuciones
 Este proyecto fue desarrollado por Federico Moretto como parte de su curso de Desarrollo Web. No se aceptan contribuciones externas en este momento.
 
-# Contacto
+## Contacto
 Si tienes alguna pregunta o sugerencia sobre este proyecto, puedes contactar a Federico Moretto a través de correo electrónico.
 
 ¡Gracias por visitar Distribuidora Moretto! Esperamos que disfrutes navegando por nuestro sitio web.
